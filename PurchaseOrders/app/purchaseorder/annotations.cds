@@ -1,6 +1,7 @@
 using MyService as service from '../../srv/service';
 @odata.draft.enabled:true
 annotate service.purchaseorder with @(
+    UI.SelectionFields:[PO_ID],
     UI.FieldGroup #GeneratedGroup : {
         $Type : 'UI.FieldGroupType',
         Data : [

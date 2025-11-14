@@ -11,7 +11,7 @@ GET http://localhost:4004/odata/v4/employee-set/employee
 
 ####
 
-GET http://localhost:4004/odata/v4/employee-set/employee?$filter=startswith(nameFirst,'S')
+GET http://localhost:4004/odata/v4/employee-set/employee?$filter=contains(nameFirst,'S')
 
 ####
 
